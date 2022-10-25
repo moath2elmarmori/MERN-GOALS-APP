@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 1rem;
+  border-bottom: 1px solid #d3d3d3;
+  margin: 0 1rem 2rem;
+}
+.header .logo {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.header ul {
+  list-style-type: none;
+  display: flex;
+  /* background: red; */
+}
+.header ul li {
+  margin-left: 1rem;
+  /* background-color: blue; */
+  display: flex;
+}
