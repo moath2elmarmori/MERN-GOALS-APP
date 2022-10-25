@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/goals";
+// const API_URL = "http://localhost:5000/api/goals";
+const API_URL = "https://mernappmoath-goalsetter.herokuapp.com/api/goals";
 
 const getGoals = async (token) => {
   // the configuration object that will be sent to all kinds of request for goals because it has the authorization header that is equal to "Bearer <token>"
