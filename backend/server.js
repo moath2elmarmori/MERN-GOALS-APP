@@ -17,7 +17,9 @@ app.use(
   cors({
     origin: [
       "http://localhost:3000",
+      "http://localhost:5000",
       "https://mernappmoath-goalsetter.herokuapp.com",
+      "https://goalsetter-moath.onrender.com",
     ],
   })
 );
